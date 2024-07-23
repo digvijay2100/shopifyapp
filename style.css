@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+.content{
+    
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+#main{
+    font-size: 50px;
+}
+
+.search-bar {
+    width: 40%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+#search {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 2300px;
+    margin-right: 10px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#searchBtn {
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0003;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 8px 16px;
+    transition: background-color .3s ease;
+}
+
+#searchBtn:hover {
+    background-color: #fefcfc;
+    color: #000;
+}
+
+.images {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.images:hover {
+    transform: scale(1.02); 
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    border-radius: 8px;
+}
+
+.image,.pricebox {
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.mainbox {
+    display: grid;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cart {
+    background-color: #1e1818;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0003;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 8px 16px;
+    transition: background-color .3s ease;
+}
+
+.cart:hover {
+    background-color: #fefcfc;
+    color: #000;
+}
+
+#btn {
+    margin: 5px 32px;
+}
+  
+#btn button {
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0003;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 8px 16px;
+    transition: background-color .3s ease;
+}
+
+#btn button:hover{
+    background-color: #fefcfc;
+    color: #000;
+}
+
+
+
+#cart-btn {
+    margin-right: 20px;
+}
